@@ -1,0 +1,25 @@
+<template>
+<view class="view">
+  <text>content</text>
+</view>
+</template>
+
+<script>
+Page({
+  onReady: function () {
+    console.log('ready')
+  }
+})
+</script>
+
+<style>
+.view {
+  color: red;
+}
+</style>
+
+<config>
+{
+  "navigationBarTitleText": "画布"
+}
+</config>
