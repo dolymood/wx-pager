@@ -40,7 +40,7 @@ describe('wx-pager', function () {
       output = pager.renderFile(filename)
       check(output)
 
-      pager.toFiles(filename, {
+      pager.renderToFiles(filename, {
         output: outputDir
       })
       var asyncOutput = {
