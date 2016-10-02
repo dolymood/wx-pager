@@ -1,7 +1,7 @@
 {
   "name": "wx-pager",
   "version": "0.0.1",
-  "description": "将 wx 后缀文件生成 wx-app 的 page 所需要的文件",
+  "description": "将 `wx` 后缀文件生成 `wx-app` 的 `page` 所需要的 `wxml`, `js`, `wxss`, `json` 文件内容以及文件",
   "main": "index.js",
   "keywords": [
     "wx-pager",
