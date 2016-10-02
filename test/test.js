@@ -1,8 +1,6 @@
 var fs = require('fs')
 var path = require('path')
 var expect = require('chai').expect
-var rimraf = require('rimraf')
-var hash = require('hash-sum')
 
 var pager = require('../lib/pager')
 

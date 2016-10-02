@@ -1,1 +1,1 @@
-module.exports = require('lib/pager')
+module.exports = require('./lib/pager')
