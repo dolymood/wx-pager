@@ -4,6 +4,36 @@
 
 类似于 `Vue.js` 的 `.vue` 文件。
 
+## `.wx` 文件
+
+```vue
+<template>
+<view class="view">
+  <text>content</text>
+</view>
+</template>
+
+<script>
+Page({
+  onReady: function () {
+    console.log('ready')
+  }
+})
+</script>
+
+<style>
+.view {
+  color: red;
+}
+</style>
+
+<config>
+{
+  "navigationBarTitleText": "标题"
+}
+</config>
+```
+
 ## 基本使用
 
 ```js
